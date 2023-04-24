@@ -1,0 +1,81 @@
+<style type="text/css">
+       *{
+            margin:0;
+            padding:0;
+        }
+        #bg{
+        	width: 100%;
+        	height: 100%;
+        	position: fixed;
+        	top: 0;
+        }
+        #bg img{
+        	width: 100%;
+        	height: 100%;
+        }
+        #bg .desc{
+        	width: 77%;
+        	margin:30px auto 0;
+        	padding:15px 15px;
+        	background: #eee;
+        	font-size: 17px;
+        	line-height: 23px;
+        	text-align: justify;
+        	border-radius: 10px;
+        	color: #666;
+        }
+        #bg h2{
+        	text-align: center;
+        	margin:20px auto 0;
+        	color: #f00;
+        }
+        #bg button{
+        	margin: 20px auto 0;
+        	padding:10px 18px;
+        	font-size: 16px;
+        	display: block;
+        	outline: none;
+        	border:none;
+        	border-radius: 100px;
+        	background: #006eff;
+        	color: #fff;
+        }
+        #bg .androidimg{
+        	width: calc(77% + 30px);
+        	margin:30px auto 0;
+        	border:1px solid #ccc;
+        	border-radius: 20px;
+        }
+        #bg .androidimg img{
+        	overflow: hidden;
+        	border-radius: 20px;
+        }
+    </style>
+	
+	<style>
+	    .x-jtc-recorder-btn {
+		position: fixed;
+		z-index: 999999999998;
+	
+		display: none;
+		justify-content: space-between;
+		align-items: center;
+		width: 170px;
+	     }
+	.x-jtc-recorder-btn button {
+		width: 80px;
+		border-radius: 3px;
+		background-color: rgba(255, 255, 255, 0.8);
+		color: rgba(0, 0, 0, 0.8);
+		line-height: 30px;
+		height: 30px;
+		cursor: pointer;
+		font-size: 15px;
+		border: 0;
+		outline: none;
+	}
+	.x-jtc-recorder-btn button:hover {
+		background-color: rgba(48, 13, 241, 0.5);
+		color: rgba(255, 255, 255, 0.8);
+	}
+	   </style>
